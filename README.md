@@ -44,7 +44,7 @@ and opens the report in browser.
 
 ### Script Explanation
 
-"lighthouse http://localhost:3000 --config-path=./lighthouse/config/config.js --output json --output html --output-path ./lighthouse/reports/initial --quiet --view --chrome-flags=--headless"
+"lighthouse http://localhost:5000 --config-path=./lighthouse/config/config.js --output json --output html --output-path ./lighthouse/reports/initial --quiet --view --chrome-flags=--headless"
 
 ### url
 
