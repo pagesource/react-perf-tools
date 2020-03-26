@@ -2,8 +2,6 @@ name: "size"
 on:
   pull_request:
     branches:
-      - master
-      - develop
       - feat/ligthouse-enhancements
 jobs:
   size:
