@@ -48,7 +48,7 @@ and opens the report in browser.
 
 ### url
 
-http://localhost:3000 - url on which we need to see the metrics.
+http://localhost:5000 - url on which we need to see the metrics.
 
 #### input
 Configuration
