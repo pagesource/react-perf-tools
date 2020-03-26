@@ -10,4 +10,4 @@ inputs:
     description: 'a github access token'
 runs:
   using: 'node12'
-  main: 'build/static/js/*.js'
+  main: 'build/static/js/main.e6805652.chunk.js'
