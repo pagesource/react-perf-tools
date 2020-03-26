@@ -1,0 +1,13 @@
+name: 'size-limit-action'
+description: 'size-limit action'
+author: 'Salil Kapoor <salilkapoor03@gmail.com>'
+branding:
+  icon: 'activity'
+  color: 'green'
+inputs:
+  access_token:
+    required: true
+    description: 'a github access token'
+runs:
+  using: 'node12'
+  main: 'build/static/js/*.js'
