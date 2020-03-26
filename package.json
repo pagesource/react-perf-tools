@@ -20,7 +20,7 @@
     "size": "yarn run size-build && size-limit",
     "serve": "serve -s build",
     "analyze": "yarn run build && source-map-explorer 'build/static/js/*.js' --html ./build-analyzer/reports.html",
-    "lighthouse": "lighthouse http://localhost:3000 --config-path=./lighthouse/config/config.js --output json --output html --output-path ./lighthouse/reports/test --quiet --view --extra-headers=./lighthouse/config/custom-headers.json --chrome-flags=--headless"
+    "lighthouse": "lighthouse http://localhost:5000 --config-path=./lighthouse/config/config.js --output json --output html --output-path ./lighthouse/reports/test --quiet --view --extra-headers=./lighthouse/config/custom-headers.json --chrome-flags=--headless"
   },
   "eslintConfig": {
     "extends": "react-app"
