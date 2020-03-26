@@ -12,6 +12,6 @@ jobs:
       CI_JOB_NUMBER: 1
     steps:
       - uses: actions/checkout@v1
-      - uses: ./
+      - uses: pagesource/react-perf-tools
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
