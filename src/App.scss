@@ -1,0 +1,19 @@
+@import './styles/main.scss';
+
+.app {
+  border: 1px solid $token-grey-color;
+  border-radius: 5px;
+  max-width: 900px;
+  margin: auto;
+  &__header {
+    background: $token-grey-color-1;
+    height: 60px;
+    &__heading {
+      margin: 0;
+      padding: 0.9rem;
+    }
+  }
+  &__section {
+    padding: 0.9rem;
+  }
+}

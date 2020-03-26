@@ -1,0 +1,29 @@
+@import '../../../styles/main.scss';
+
+.tasks {
+    &__info--empty {
+        border: 1px solid $token-grey-color;
+        border-top: 0;
+        padding: 0.7rem;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+        height: 45px;
+        box-sizing: border-box;
+    }
+    &__button {
+        border: 1px solid $token-black-color;
+        background-color: transparent;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        height: 30px;
+        box-sizing: content-box;
+        font-size: 0.9rem;
+    }
+    &__button:hover,
+    &__button:focus {
+        border: 1px solid $token-black-color;
+        background-color: $token-black-color;
+        color: $token-white-color;
+    }
+}
