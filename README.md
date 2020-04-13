@@ -58,6 +58,9 @@ can be override by this argument<br />
 # Build Analyzer
 
 `source-map-explorer` is used as a bundle analyzer as it shows tree map visualization.
+Whenever, the build size limit exceeds threshold or it is consuming more time then desired threshold.
+We can analyze the bundle from the modules perseptive which we have integrated and also from the code perspective.
+We can optimize the respective areas.
 
 ## Why source-map-explorer?
 
