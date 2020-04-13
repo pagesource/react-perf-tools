@@ -1,34 +1,16 @@
-# TO-DO App
+# React Perf Tools
 
-This is a TO-DO app build with react, styled with sass and provides audit for Performance, Accessibility<br />
-SEO, Best-practices with Google's Lighthouse CLI integration.<br />
-This app also provides budgeting with size-limit integration of 1.5 s of threshold. Bundle can be analyze<br />
-by source-map-explorer.
+This project includes integration with the performance tools like Lighthouse, Build Analyzer & Size Limit.
+As a bonus, it also covers performance optimizations using React Profiler, useCallback and useMemo hooks.
 
-## Features
+## Purpose & Benefits
+| PURPOSE                                                                                    | BENEFITS                                                                                 |
+|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| To audit the web app from different perspectives e\.g\. Performance, Best Practices, etc\. | Actively monitoring performance helps in avoiding last cycle bottlenecks\.               |
+| Analysing the bundle size                                                                  | Reports can help in analysing things visually and take corresponding actions\.           |
+| Simulates “real\-world” circumstances e\.g\. data network, throttling                      | Optimized code                                                                           |
+| Prevent regressions in our site                                                            | From failing audits as indicators, we can use to improve the overall web app’s quality\. |
 
-This TO-DO react app provides integration with lighthouse and report for audits based on various categories.<br />
-Reports are provided in .json, .html format.
-
-## App Capabilities
-1) Add a task
-2) See the list - pending, completed tasks
-3) Mark your pending tasks completed
-4) removed the completed tasks
-
-### State Management
-App state is managed with useReducer hook, a custom hook is built using useReducer<br/> to manage state at single point
-and provides dispatch actions for performing various updates to state.
-
-### Styling
-Resets and variables are created under styles folder.
-
-## Scripts
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # Lighthouse
 
