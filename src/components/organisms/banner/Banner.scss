@@ -1,0 +1,23 @@
+@import '../../../styles/main.scss';
+
+.banner {
+    &__button {
+        border: 1px solid $token-black-color;
+        background-color: transparent;
+        width: 15%;
+        height: 30px;
+        box-sizing: content-box;
+        font-size: 0.9rem;
+    }
+
+    &__button:not(:last-child) {
+        margin-right: 1rem;
+    }
+    
+    &__button:hover,
+    &__button:focus {
+        border: 1px solid $token-black-color;
+        background-color: $token-black-color;
+        color: $token-white-color;
+    }
+}
